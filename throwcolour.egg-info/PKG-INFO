@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: throwcolour
-Version: 1.0.6
+Version: 1.0.7
 Summary: A small package to make printing pretty things easier!
 Home-page: https://github.com/jackyzha0/ThrowColour
 Author: Jacky Zhao
@@ -98,6 +98,7 @@ Description: # ThrowColour
         
 Platform: UNKNOWN
 Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
 Classifier: Programming Language :: Python :: 2.7
 Classifier: License :: OSI Approved :: MIT License
 Classifier: Operating System :: OS Independent
