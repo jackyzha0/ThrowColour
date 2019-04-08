@@ -31,15 +31,26 @@ cthrow('Test 1,2')
 
 This would print the message ```DATETIME - [INFO] Test 1,2``` in a nice looking purple with ```DATETIME``` replaced with the current timestamp.
 
-![eg1](res/eg1.png?raw=true "Nov. 1st")
+![eg1](res/eg1.png?raw=true)
 
-##### Setting Flags
+<br>
 
+The full ```cthrow``` function is as follows:
 ```Python
-cthrow('Test 1,2')
+cthrow(message, type='INFO', formatting=None, addPrefix=True, dateTime=True)
 ```
-When setting flags, ensure the strings match exactly the name of the flag detailed below.
+
+As you can see, a flag can be specified. This specifies the colour of the message and the message type. When setting flags, ensure the strings match exactly the name of the flag detailed below.
  * INFO - A nice aesthetic purple message
  * OK - A satisfying green message
  * WARN - A cautionary yellow message
  * ERR - A not-so-good red message
+For example:
+
+```Python
+cthrow("This probably isn't good", type="WARN")
+```
+
+![eg2](res/eg2.png?raw=true)
+
+<br>
