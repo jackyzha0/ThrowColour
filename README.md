@@ -35,16 +35,23 @@ This would print the message ```DATETIME - [INFO] Test 1,2``` in a nice looking 
 
 <br>
 
+##### The ```cthrow``` function
+
 The full ```cthrow``` function is as follows:
 ```Python
 cthrow(message, type='INFO', formatting=None, addPrefix=True, dateTime=True)
 ```
+
+##### Setting the ```type``` argument
 
 As you can see, a flag can be specified. This specifies the colour of the message and the message type. When setting flags, ensure the strings match exactly the name of the flag detailed below.
  * INFO - A nice aesthetic purple message
  * OK - A satisfying green message
  * WARN - A cautionary yellow message
  * ERR - A not-so-good red message
+
+<br>
+
 For example:
 
 ```Python
@@ -54,3 +61,29 @@ cthrow("This probably isn't good", type="WARN")
 ![eg2](res/eg2.png?raw=true)
 
 <br>
+
+##### The ```addPrefix``` and ```dateTime``` arguments
+
+We can also disable the prefix (the stuff inside the []) and timestamp as follows.
+
+```Python
+cthrow("Look Mom, no prefix and timestamp!", addPrefix=False, dateTime=False)
+```
+
+<br>
+
+##### Setting formatting flags
+
+With ThrowColour it is also possible to set multiple formatting flags such as bold and italics. It is important to note that the argument ```formatting``` takes a list containing strings of different formatting options.
+
+```Python
+cthrow("Bold and Underlined", formatting=['BOLD','UNDERLINE'])
+```
+![eg3](res/eg3.png?raw=true)
+
+Or just bolded,
+```Python
+cthrow("Nice and bold", formatting=['BOLD'])
+```
+
+![eg4](res/eg4.png?raw=true)
