@@ -5,13 +5,13 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="ThrowColour",
-    version="0.0.1",
+    version="v1.0.0",
     author="Jacky Zhao",
     author_email="j.zhao2k19@gmail.com",
     description="A small package to make printing pretty things easier!",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/jackyzha0/ThrowColour",
+    url="https://github.com/jackyzha0/ThrowColour/archive/v1.0.0.zip",
     packages=setuptools.find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
