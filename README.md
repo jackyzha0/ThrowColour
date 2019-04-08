@@ -1,9 +1,8 @@
-# Title
+# ThrowColour
 
 ThrowColour is a small Python module to make printing messages with formatting and colours easier!
 
-# Overview
-Description
+## Features
 
   - Feature 1
   - Feature 2
@@ -25,7 +24,7 @@ $ pip install ThrowColour
 Exmaple of how to use ThrowColour
 
 ```Python
-from ThrowColour import cthrow
+from throwcolour import cthrow
 cthrow('Test 1,2')
 ```
 
