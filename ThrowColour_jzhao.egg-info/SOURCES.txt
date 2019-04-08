@@ -1,7 +1,0 @@
-README.md
-setup.cfg
-setup.py
-ThrowColour_jzhao.egg-info/PKG-INFO
-ThrowColour_jzhao.egg-info/SOURCES.txt
-ThrowColour_jzhao.egg-info/dependency_links.txt
-ThrowColour_jzhao.egg-info/top_level.txt

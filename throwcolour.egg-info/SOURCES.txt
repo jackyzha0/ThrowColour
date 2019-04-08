@@ -1,6 +1,7 @@
 README.md
 setup.cfg
 setup.py
+throwcolour/__init__.py
 throwcolour.egg-info/PKG-INFO
 throwcolour.egg-info/SOURCES.txt
 throwcolour.egg-info/dependency_links.txt

@@ -13,7 +13,7 @@ ThrowColour is a small Python module to make printing messages with formatting a
 
 To download throwcolour, either fork this Github repo or simply use Pypi via pip.
 ```sh
-$ pip install ThrowColour
+$ pip install throwcolour
 ```
 
 ### Using it
@@ -25,7 +25,7 @@ A few functional examples of how to use ThrowColour.
 A basic example of how to use the ```cthrow``` function.
 
 ```Python
-from ThrowColour import cthrow
+from throwcolour import cthrow
 cthrow('Test 1,2')
 ```
 
