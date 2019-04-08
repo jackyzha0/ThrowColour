@@ -1,2 +1,1 @@
-name = "throwcolour"
-from throwcolour import cthrow
+name = "ThrowColour"

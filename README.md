@@ -25,7 +25,7 @@ A few functional examples of how to use ThrowColour.
 A basic example of how to use the ```cthrow``` function.
 
 ```Python
-from throwcolour import cthrow
+from ThrowColour import cthrow
 cthrow('Test 1,2')
 ```
 
