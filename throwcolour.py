@@ -39,5 +39,3 @@ def cthrow(message, type='INFO', formatting=None, addPrefix=True, dateTime=True)
     outstr += bcolors.all['TERM'] # Clear formatting after printing string
 
     print(outstr)
-
-cthrow('no', type="OK")
