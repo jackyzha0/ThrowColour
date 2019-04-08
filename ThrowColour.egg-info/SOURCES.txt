@@ -1,0 +1,7 @@
+README.md
+setup.cfg
+setup.py
+ThrowColour.egg-info/PKG-INFO
+ThrowColour.egg-info/SOURCES.txt
+ThrowColour.egg-info/dependency_links.txt
+ThrowColour.egg-info/top_level.txt
