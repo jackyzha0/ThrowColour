@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: throwcolour
-Version: 1.0.5
+Version: 1.0.6
 Summary: A small package to make printing pretty things easier!
 Home-page: https://github.com/jackyzha0/ThrowColour
 Author: Jacky Zhao
@@ -21,7 +21,7 @@ Description: # ThrowColour
         
         To download throwcolour, either fork this Github repo or simply use Pypi via pip.
         ```sh
-        $ pip install ThrowColour
+        $ pip install throwcolour
         ```
         
         ### Using it
@@ -33,7 +33,7 @@ Description: # ThrowColour
         A basic example of how to use the ```cthrow``` function.
         
         ```Python
-        from ThrowColour import cthrow
+        from throwcolour import cthrow
         cthrow('Test 1,2')
         ```
         

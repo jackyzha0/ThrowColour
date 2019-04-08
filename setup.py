@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setup(
     name="throwcolour",
-    version="1.0.5",
+    version="1.0.7",
     author="Jacky Zhao",
     author_email="j.zhao2k19@gmail.com",
     description="A small package to make printing pretty things easier!",
@@ -15,7 +15,8 @@ setup(
     packages=['throwcolour'],
     classifiers=[
         "Programming Language :: Python :: 3",
-        'Programming Language :: Python :: 2.7',
+        "Programming Language :: Python :: 3.6",
+        "Programming Language :: Python :: 2.7",
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
     ]
