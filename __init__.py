@@ -1,4 +1,2 @@
-name = "ThrowColour"
-author = "Jacky Zhao"
-
+name = "throwcolour"
 from throwcolour import cthrow
