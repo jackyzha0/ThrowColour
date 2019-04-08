@@ -4,17 +4,19 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="example-pkg-your-username",
+    name="ThrowColour",
     version="0.0.1",
-    author="Example Author",
-    author_email="author@example.com",
-    description="A small example package",
+    author="Jacky Zhao",
+    author_email="j.zhao2k19@gmail.com",
+    description="A small package to make printing pretty things easier!",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/pypa/sampleproject",
+    url="https://github.com/jackyzha0/ThrowColour",
     packages=setuptools.find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
+        "Programming Language :: Python :: 3.6",
+        'Programming Language :: Python :: 2.7',
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
     ],
